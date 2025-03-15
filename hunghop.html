@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mun Vape</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('bgr3.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 50px;
+            background: #2a0314;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 1150px;
+            margin: 0 auto;
+            padding: 10px 20px;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .logo img {
+            width: 200px;
+        }
+        .seller-name {
+            font-size: 22px;
+            color: white;
+            font-style: italic;
+        }
+        .menu {
+            display: flex;
+            gap: 20px;
+        }
+        .menu a {
+            text-decoration: none;
+            color: #f0eaea;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .banner {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .product {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 10px;
+            background: white;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .product h2 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .product p {
+            font-size: 16px;
+            font-weight: bold;
+            color: #e60000;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="logo1.png" alt="Logo">
+            <span class="seller-name">Phan Công Hưng</span>
+        </div>
+        <nav class="menu">
+            <a href="https://www.facebook.com/share/19jjtPZPLk/?mibextid=wwXIfr">Facebook</a>
+            <a href="https://www.tiktok.com/@munvp6868?_r=1&_d=secCgYIASAHKAESPgo8edsOm1PK2g%2B6X%2FASZWHrYN6T4hrHxUlKB8s6J5jmCpxRqWK48hQJI6Jq%2F76ZRQYSUleM9m65WKS2YOiAGgA%3D&_svg=1&checksum=885516030ef5faac4a4e7d4e5922ae5c28925b2f52393f19fdfb60bc1f9fe18c&sec_uid=MS4wLjABAAAAUJcM9ouElH5NN5vkuUYyH5uwq1XOSqLn75dY-iKHC539wT0gHv0gGNWlI0nCLCB1&sec_user_id=MS4wLjABAAAAUJcM9ouElH5NN5vkuUYyH5uwq1XOSqLn75dY-iKHC539wT0gHv0gGNWlI0nCLCB1&share_app_id=1180&share_author_id=7040755509574583297&share_link_id=97B5DF1E-37AE-409D-AAAF-C40C1861F030&sharer_language=vi&social_share_type=4&source=h5_t&timestamp=1742062185&tt_from=copy&u_code=dm6age882f88d6&ug_btm=b8727%2Cb0&user_id=7040755509574583297&utm_campaign=client_share&utm_medium=ios&utm_source=copy">Tiktok </a>
+            <a href="#">010-8088-3952</a>
+        </nav>
+    </div>
+    
+    <div class="container">
+        <img class="banner" src="background.png" alt="Ảnh lớn dưới logo">
+        <div class="products">
+            <div class="product">
+                <img src="sp1.png" alt="Sản phẩm 1">
+                <h2>Sản Phẩm 1</h2>
+                <p>Giá: 100,000đ / 1 đầu</p>
+            </div>
+            <div class="product">
+                <img src="sp2.png" alt="Sản phẩm 2">
+                <h2>Sản Phẩm 2</h2>
+                <p>Giá: 200,000đ / 1 lọ</p>
+            </div>
+            <div class="product">
+                <img src="sp3.png" alt="Sản phẩm 3">
+                <h2>Sản Phẩm 3</h2>
+                <p>Giá: 300,000đ / 1 lọ</p>
+            </div>
+            <div class="product">
+                <img src="sp4.png" alt="Sản phẩm 4">
+                <h2>Sản Phẩm 4</h2>
+                <p>Giá: 400,000đ / 1 lọ</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
